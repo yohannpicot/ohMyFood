@@ -3,7 +3,7 @@
     padding: 0px;
 }
 html{
-    max-width: 600px;
+    max-width: 400px;
 }
 /* en tête (logo + address )--------------------------------------- */
 #logo{
@@ -29,7 +29,7 @@ html{
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 200px;
+    justify-content: center;
     
 }
 #address_bloc p{
@@ -78,4 +78,65 @@ html{
         border-radius: 40px;
         
         
+}
+/* fonctionnement-------------------------------------------- */
+#fonctionnement{
+    width: 100%;
+}
+#fonctionnement h1{
+    font-family: 'roboto',sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#selection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.selection_button{
+    display: flex;
+    position: relative;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(188, 188, 188);
+    gap: 10px;
+    width: 80%;
+    background-color:rgb(246, 246, 246);
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-right: 50px;
+    border-radius: 20px;
+}
+.selection_button:hover{
+    background-color: #e5d5f8 ;
+    
+}
+.selection_button h6{
+    font-family: 'roboto',sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+.selection_button p{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: -10px;
+    font-family: 'roboto',sans-serif;
+    font-size: 17px;
+    color: white;
+    background-color: #9356DC;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.selection_button i{
+    margin-left: 40px;
+    margin-right:10px ;
+    font-size: 20px;
+    color: rgb(161, 161, 161);
+    
 }
